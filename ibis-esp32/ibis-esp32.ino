@@ -108,8 +108,8 @@ const char *displayReplacementFor(uint32_t codepoint) {
     case 0x00C4: return "[";    // A-Umlaut
     case 0x00D6: return "\\";   // O-Umlaut
     case 0x00DC: return "]";    // U-Umlaut
-    case 0x00E4: return "|";    // a-Umlaut
-    case 0x00F6: return "{";    // o-Umlaut
+    case 0x00E4: return "{";    // a-Umlaut
+    case 0x00F6: return "|";    // o-Umlaut
     case 0x00FC: return "}";    // u-Umlaut
     case 0x00DF: return "~";    // sz
     case 0x00E9: return "e";
